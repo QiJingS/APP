@@ -1,0 +1,20 @@
+
+```{r}
+AF = 0.01
+target = c("proteasome","TAPs","ERAPs","CALR","CANX","TAPBP","ERp57","Beta_2m","JAK2")
+APP_xlsx_address = "/Users/qijingshen/Desktop/Thesis and presentation/APP_SNP_summary/APP_summary.xlsx"
+chr_vcf_address = "/Users/qijingshen/Desktop/Thesis and presentation/data/"
+res_address = "/Users/qijingshen/Desktop/Thesis and presentation/res/"
+allotype_res_address = "/Users/qijingshen/Desktop/Thesis and presentation/res_allotype/"
+source("/Users/qijingshen/Desktop/Thesis and presentation/code/packages.R")
+source("APP_extraction.R")
+APP_extraction()
+source("allotypes_definition.R")
+```
+
+
+
+
+
+
+
